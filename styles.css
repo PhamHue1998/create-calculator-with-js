@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+input,button{
+    border-style: none;
+    
+}
+.container{
+    border: 1px solid black;
+    width: 300px;
+    margin: 0px auto;
+    margin-top: 70px;
+    background-color: rgb(199, 193, 193);
+}
+
+table,button,input{
+    width: 100%;
+}
+
+td{
+    width: 25%;
+}
+
+input{
+    margin: 20px 0;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(223, 215, 215);
+}
+
+button{
+background-color: rgb(13, 15, 10);
+color: #fff;
+cursor: pointer;
+padding: 10px;
+}
+
+button:hover{
+background-color: rgb(82, 78, 78);
+}
